@@ -43,12 +43,14 @@ i.fff {
 h1 {
     text-align: center;
     color: chocolate;
+ text-transform: uppercase;
 }
 
 h2 {
     color: rgb(255, 255, 255);
     text-align: center;
     font-size:30px;
+
 }
 
 h2.pronas {
@@ -65,6 +67,7 @@ h2.pronas {
 footer {
     background-color: #696969;
     color:rgb(255, 255, 255);
+    padding-bottom: 1px;
 
 }
 
@@ -82,7 +85,7 @@ footer p {
 }
 
 table {
-    border: 1px solid blue;
+    border: 1px solid rgb(191, 191, 255);
     text-align: center;
     border-collapse: collapse;
     background-color: #f0f0f0;
@@ -91,7 +94,7 @@ table {
 }
 
 td {
-    border: 1px solid rgb(0, 81, 255);
+    border: 1px solid rgb(191, 191, 255);
 }
 
 th {
@@ -104,6 +107,7 @@ h2.odin {
     margin-left: 110px;
     color: rgb(0, 255, 13);
     background-color: #2d5f8d;
+    border-radius: 5px;
 }
 
 h2.dva {
@@ -111,6 +115,7 @@ h2.dva {
     margin-right: 110px;
     color: rgb(0, 255, 13);
     background-color: #2d5f8d;
+    border-radius: 5px;
 }
 
 
@@ -119,9 +124,20 @@ h2.tri {
     margin-left: 110px;
     color: red;
     background-color: #2d5f8d;
+    border-radius: 5px;
     }
 
 main img {
 padding: 10px;
 margin-bottom: -12px;
+}
+
+
+
+.icon{
+    transition: all 0.3s;
+}
+
+.icon:hover{
+    scale: 1.2;
 }
